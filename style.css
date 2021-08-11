@@ -108,5 +108,22 @@ header .logo {
 }
 // Search Box
 .searchBox {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 30px 50px;
+  transform: translateY(50%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.searchBox .inputBx {
+  margin: 0px 20px;
+}
+
+.searchBox .inputBx p {
+  color: #222;
+  margin-bottom: 10px;
 }
