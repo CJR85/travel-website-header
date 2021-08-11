@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
-
+// Header
 header {
   position: relative;
   width: 100%;
@@ -56,4 +56,9 @@ header .logo {
 
 .group .action li a {
   font-size: 1.25em;
+}
+// Banner
+.banner {
+  position: relative;
+  width: 100%;
 }
