@@ -95,3 +95,18 @@ header .logo {
   color: #fff;
   font-size: 6em;
 }
+
+.btn {
+  display: inline-block;
+  background: #ff5a26;
+  color: #fff;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+// Search Box
+.searchBox {
+  position: relative;
+}
